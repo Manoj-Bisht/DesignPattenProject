@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5afeb225-a657-4fc1-a471-f220e2ee587b" name="manoj.bisht@NDI-LAP-156 2013-06-21 17:19:58" runUser="3PILLAR\manoj.bisht" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="30564cc6-d10c-40b4-9197-9f75b22afbda">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="manoj.bisht_NDI-LAP-156 2013-06-21 17_19_58">
+      <DeploymentItem filename="E:\DEMOProject\DEMOProject.ExternalLogger\bin\Debug\DEMOProject.ExternalLogger.dll" />
+      <DeploymentItem filename="E:\DEMOProject\DEMOProject.LogAdapter\bin\Debug\DEMOProject.LogAdapter.dll" />
+      <DeploymentItem filename="E:\DEMOProject\DEMOProject.LoggerFactory\bin\Debug\DEMOProject.LoggerFactory.dll" />
+      <DeploymentItem filename="E:\DEMOProject\DEMOProject.MyLogger\bin\Debug\DEMOProject.MyLogger.dll" />
+      <DeploymentItem filename="E:\DEMOProject\DEMOProject.BL\bin\Debug\DEMOProject.BL.dll" />
+      <DeploymentItem filename="E:\DEMOProject\DEMOProject.InterfaceDefination\bin\Debug\DEMOProject.InterfaceDefination.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-21T17:19:58.9480181+05:30" queuing="2013-06-21T17:20:01.9951924+05:30" start="2013-06-21T17:20:02.2362062+05:30" finish="2013-06-21T17:20:09.1916040+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SaveTest" storage="e:\demoproject\demoproject.testproject\bin\debug\demoproject.testproject.dll" id="7ad29d84-d426-ae2d-90fc-e22d1e6bb5d5">
+      <Execution id="689bc991-c259-4faf-af63-14aa3cbad3ce" />
+      <TestMethod codeBase="E:/DEMOProject/DEMOProject.TestProject/bin/Debug/DEMOProject.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DEMOProject.TestProject.EmployeeBLTest, DEMOProject.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaveTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7ad29d84-d426-ae2d-90fc-e22d1e6bb5d5" executionId="689bc991-c259-4faf-af63-14aa3cbad3ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="689bc991-c259-4faf-af63-14aa3cbad3ce" testId="7ad29d84-d426-ae2d-90fc-e22d1e6bb5d5" testName="SaveTest" computerName="NDI-LAP-156" duration="00:00:04.6019214" startTime="2013-06-21T17:20:02.3462125+05:30" endTime="2013-06-21T17:20:09.0135938+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="689bc991-c259-4faf-af63-14aa3cbad3ce">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DEMOProject.TestProject.EmployeeBLTest.SaveTest threw exception: 
+System.Exception: Logger not available</Message>
+          <StackTrace>    at DEMOProject.MyLogger.MyLogger.Debug(String message) in E:\DEMOProject\DEMOProject.MyLogger\MyLogger.cs:line 13
+   at DEMOProject.BL.EmployeeBL.Save() in E:\DEMOProject\DEMOProject.BL\EmployeeBL.cs:line 25
+   at DEMOProject.TestProject.EmployeeBLTest.SaveTest() in E:\DEMOProject\DEMOProject.TestProject\EmployeeBLTest.cs:line 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

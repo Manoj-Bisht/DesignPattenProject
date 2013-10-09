@@ -1,0 +1,5 @@
+E:\DEMOProject\DEMOProject.ExternalLogger\bin\Debug\DEMOProject.ExternalLogger.dll
+E:\DEMOProject\DEMOProject.ExternalLogger\bin\Debug\DEMOProject.ExternalLogger.pdb
+E:\DEMOProject\DEMOProject.ExternalLogger\obj\Debug\ResolveAssemblyReference.cache
+E:\DEMOProject\DEMOProject.ExternalLogger\obj\Debug\DEMOProject.ExternalLogger.dll
+E:\DEMOProject\DEMOProject.ExternalLogger\obj\Debug\DEMOProject.ExternalLogger.pdb

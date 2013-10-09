@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5e4a23e5-d73b-49fb-9a85-77a25da7cbce" name="manoj.bisht@NDI-LAP-156 2013-06-21 17:17:30" runUser="3PILLAR\manoj.bisht" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="30564cc6-d10c-40b4-9197-9f75b22afbda">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="manoj.bisht_NDI-LAP-156 2013-06-21 17_17_30">
+      <DeploymentItem filename="E:\DEMOProject\DEMOProject.ExternalLogger\bin\Debug\DEMOProject.ExternalLogger.dll" />
+      <DeploymentItem filename="E:\DEMOProject\DEMOProject.LogAdapter\bin\Debug\DEMOProject.LogAdapter.dll" />
+      <DeploymentItem filename="E:\DEMOProject\DEMOProject.LoggerFactory\bin\Debug\DEMOProject.LoggerFactory.dll" />
+      <DeploymentItem filename="E:\DEMOProject\DEMOProject.MyLogger\bin\Debug\DEMOProject.MyLogger.dll" />
+      <DeploymentItem filename="E:\DEMOProject\DEMOProject.BL\bin\Debug\DEMOProject.BL.dll" />
+      <DeploymentItem filename="E:\DEMOProject\DEMOProject.InterfaceDefination\bin\Debug\DEMOProject.InterfaceDefination.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-21T17:17:30.7765432+05:30" queuing="2013-06-21T17:17:33.9947272+05:30" start="2013-06-21T17:17:34.2797435+05:30" finish="2013-06-21T17:17:41.4001508+05:30" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="NDI-LAP-156" outcome="Error" timestamp="2013-06-21T17:17:41.3631487+05:30">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SaveTest" storage="e:\demoproject\demoproject.testproject\bin\debug\demoproject.testproject.dll" id="7ad29d84-d426-ae2d-90fc-e22d1e6bb5d5">
+      <Execution id="090a5991-7470-4e4f-b5b3-ab23168f12c5" />
+      <TestMethod codeBase="E:/DEMOProject/DEMOProject.TestProject/bin/Debug/DEMOProject.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DEMOProject.TestProject.EmployeeBLTest, DEMOProject.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaveTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7ad29d84-d426-ae2d-90fc-e22d1e6bb5d5" executionId="090a5991-7470-4e4f-b5b3-ab23168f12c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="090a5991-7470-4e4f-b5b3-ab23168f12c5" testId="7ad29d84-d426-ae2d-90fc-e22d1e6bb5d5" testName="SaveTest" computerName="NDI-LAP-156" duration="00:00:07.0184014" startTime="2013-06-21T17:17:34.3817494+05:30" endTime="2013-06-21T17:17:41.4001508+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="090a5991-7470-4e4f-b5b3-ab23168f12c5">
+    </UnitTestResult>
+  </Results>
+</TestRun>

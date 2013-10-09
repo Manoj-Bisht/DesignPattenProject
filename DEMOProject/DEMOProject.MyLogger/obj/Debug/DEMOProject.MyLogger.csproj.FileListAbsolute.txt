@@ -1,0 +1,7 @@
+E:\DEMOProject\DEMOProject.MyLogger\bin\Debug\DEMOProject.MyLogger.dll
+E:\DEMOProject\DEMOProject.MyLogger\bin\Debug\DEMOProject.MyLogger.pdb
+E:\DEMOProject\DEMOProject.MyLogger\bin\Debug\DEMOProject.InterfaceDefination.dll
+E:\DEMOProject\DEMOProject.MyLogger\bin\Debug\DEMOProject.InterfaceDefination.pdb
+E:\DEMOProject\DEMOProject.MyLogger\obj\Debug\ResolveAssemblyReference.cache
+E:\DEMOProject\DEMOProject.MyLogger\obj\Debug\DEMOProject.MyLogger.dll
+E:\DEMOProject\DEMOProject.MyLogger\obj\Debug\DEMOProject.MyLogger.pdb

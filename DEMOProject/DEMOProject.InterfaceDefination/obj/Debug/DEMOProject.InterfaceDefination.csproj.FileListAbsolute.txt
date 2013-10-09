@@ -1,0 +1,5 @@
+E:\DEMOProject\DEMOProject.InterfaceDefination\bin\Debug\DEMOProject.InterfaceDefination.dll
+E:\DEMOProject\DEMOProject.InterfaceDefination\bin\Debug\DEMOProject.InterfaceDefination.pdb
+E:\DEMOProject\DEMOProject.InterfaceDefination\obj\Debug\ResolveAssemblyReference.cache
+E:\DEMOProject\DEMOProject.InterfaceDefination\obj\Debug\DEMOProject.InterfaceDefination.dll
+E:\DEMOProject\DEMOProject.InterfaceDefination\obj\Debug\DEMOProject.InterfaceDefination.pdb
